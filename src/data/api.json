@@ -1,0 +1,13 @@
+{
+    "tmdb": {
+        "url": "https://api.themoviedb.org/3",
+        "headers": {
+            "accept": "application/json",
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhM2E3YmFiODZmY2FhYjY0YzZhMTNkZWNjYzJjNTEzNCIsInN1YiI6IjY1N2U0YzMxNDgzMzNhMWUzMGNiMDI3OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.DCVczhaEVDnzEZBWLJVw-kXSLqf7wXfg-FkT5NQodYE"
+        },
+        "movie_search": {
+            "url_addition": "/search/movie",
+            "query_convertion": "f'?query={query_str.strip().replace(' ', '+')}'"
+        }
+    }
+}

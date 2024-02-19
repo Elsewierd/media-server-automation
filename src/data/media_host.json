@@ -1,0 +1,51 @@
+{
+    "jellyfin": {
+        "Movies": [
+            "Title",
+            "Year",
+            {
+                "id": [
+                    "tmdb",
+                    "imdb"
+                ]
+            }
+        ],
+        "Shows": [
+            "Series",
+            "Year",
+            {
+                "id": [
+                    "tmdb",
+                    "imdb"
+                ]
+            },
+            {
+                "Seasons": [
+                    "Number",
+                    {
+                        "Episode": [
+                            "Number",
+                            "Title"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Books": {
+            "Audiobooks": {
+                "Author": [
+                    "Title",
+                    "Year",
+                    "id"
+                ]
+            },
+            "Books": {
+                "Author": [
+                    "Title",
+                    "Year",
+                    "id"
+                ]
+            }
+        }
+    }
+}
